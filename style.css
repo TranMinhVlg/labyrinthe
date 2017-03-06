@@ -1,0 +1,36 @@
+body {
+    background: #eee;
+    font-family: Helvetica, Arial;
+    font-size: 54px;
+}
+
+.container {
+    display: flex;
+    margin: 50px auto;
+    flex-direction: column;
+    width: 400px;
+}
+
+.row {
+    display: flex;
+}
+
+.case {
+    background: white;
+}
+
+.top {
+    border-top: solid 1px black;
+}
+
+.right {
+    border-right: solid 1px black;
+}
+
+.bottom {
+    border-bottom: solid 1px black;
+}
+
+.left {
+    border-left: solid 1px black;
+}
